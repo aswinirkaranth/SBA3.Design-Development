@@ -1,0 +1,78 @@
+.bg-color-Purple100 {
+    background-color: hsl(254, 88%, 90%);
+}
+
+.bg-color-Purple500 {
+    background-color: hsl(256, 67%, 59%);
+}
+
+.bg-color-Yellow100 {
+    background-color: hsl(31, 66%, 93%);
+}
+
+.bg-color-Yellow500 {
+    background-color: hsl(39, 100%, 71%);
+}
+
+.color-White {
+    color: hsl(0, 0%, 100%);
+}
+
+.color-Black {
+    color: hsl(0, 0%, 7%);
+}
+
+
+/*Typography*/
+/*- Family: [DM Sans](https://fonts.google.com/specimen/DM+Sans)
+- Weights: 400, 500 */
+
+
+@import url(assets/fonts/static/DMSans-Medium.ttf);
+@import url(assets/fonts/static/DMSans-MediumItalic.ttf);
+@import url(assets/fonts/static/DMSans-Regular.ttf);
+@import url(assets/fonts/DMSans-Italic-VariableFont_opsz,wght.ttf);
+@import url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
+.outfit-regular {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outfit-bold {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.figtree-regular {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.figtree-bold {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.dm-sans-regular {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dm-sans-bold {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
