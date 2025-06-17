@@ -14,6 +14,14 @@
     background-color: hsl(39, 100%, 71%);
 }
 
+.bgcolor-White {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.color-Purple500 {
+    color: hsl(256, 67%, 59%);
+}
+
 .color-White {
     color: hsl(0, 0%, 100%);
 }
@@ -28,11 +36,39 @@
 - Weights: 400, 500 */
 
 
-@import url(assets/fonts/static/DMSans-Medium.ttf);
-@import url(assets/fonts/static/DMSans-MediumItalic.ttf);
-@import url(assets/fonts/static/DMSans-Regular.ttf);
-@import url(assets/fonts/DMSans-Italic-VariableFont_opsz,wght.ttf);
-@import url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf);
+@font-face {
+    font-family: 'DM Sans Medium';
+    src: url('assets/fonts/static/DMSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DM Sans Medium Italic';
+    src: url('assets/fonts/static/DMSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DM Sans Regular';
+    src: url('assets/fonts/static/DMSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DM Sans Variable Italic';
+    src: url('assets/fonts/DMSans-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DM Sans Variable';
+    src: url('assets/fonts/DMSans-VariableFont_opsz,wght.ttf') format('truetype');
+    font-style: normal;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
 
 .outfit-regular {
@@ -76,3 +112,58 @@
     font-weight: 500;
     font-style: normal;
 }
+
+.text-quicker {
+    font-family: DM Sans Variable Italic;
+}
+
+.text-manageaccount {
+    font-family: DM Sans Variable;
+}
+
+/*
+
+body {
+    background: #f7f7fa;
+}
+
+.card {
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.bg-purple {
+    background: #7d5cff;
+    color: #fff;
+}
+
+.bg-light-purple {
+    background: #e7e2fa;
+}
+
+.bg-yellow {
+    background: #ffd36e;
+}
+
+.bg-light-yellow {
+    background: #fff5e1;
+}
+
+.text-purple {
+    color: #7d5cff;
+}
+
+.text-yellow {
+    color: #ffd36e;
+}
+
+.star {
+    color: #ffd36e;
+    font-size: 1.2rem;
+}
+
+.rounded-18 {
+    border-radius: 18px !important;
+}
+*/
